@@ -1,8 +1,8 @@
 # Folder Guide:
 The root folder contains the following folders:
-  - data: (this folder is empty), folder that would contain the train and val datasets
-  - models: folder that contains the final output model after training
-  - results: folder containing a few (5 to be exact) samples images comparing ground truth to prediction output images side-by-side. Also includes json files of metrics used for evaluation.
+  - data: (this folder is empty), folder that would contain the train and val datasets (TODO, use floor plan data)
+  - models: folder that contains the final output model after training (TODO)
+  - results: folder containing a few (5 to be exact) samples images comparing ground truth to prediction output images side-by-side. Also includes json files of metrics used for evaluation. (TODO)
   - src: folder containing the source code used to complete this project, such as data preprocessing, model implementation, training, evaluation, and visualization.
 
 
@@ -55,8 +55,8 @@ The root folder contains the following folders:
     }
   }  
 
-### Training:
-- 1800 training samples, 200 validation samples
+### Training: (current nums are arbitrary)
+- x training samples, y validation samples
 - Stochastic gradient descent with 0.9 momentum and 0.0005 gradient decay
 - Learning rate of 0.002 with step decay using scheduler (0.1 every 3 epochs)
 - Batch size of 8
