@@ -1,0 +1,14 @@
+train_path: '../data/train'
+val_path: '../data/val'
+model_output_path: '../models/detection_model.pth'
+
+# training parameters
+num_epochs: 10
+batch_size: 8
+learning_rate: 0.002
+num_workers: 4
+
+# model parameters
+num_classes: 4  # including background
+confidence_threshold: 0.5
+iou_threshold: 0.5
